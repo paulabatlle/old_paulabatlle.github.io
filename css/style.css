@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ---------------TIPOGRAFIAS PARA TODO ---------- */
+@font-face{
+	font-family: Montserrat;
+	src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap')
+}
+
+*{font-family: 'Montserrat', sans-serif;}
+
+
+
+/*------- ESTILOS GENERAL ------------*/
+
+
+body{ 
+	margin: 2rem;
+	font-size: 1.2rem;}/* Tamaño de fuente: 16px */
+
+p{font-size: 1.5rem;
+	position: absolute;
+	width: 556px;
+	height: 520px;
+	left: 123px;
+	top: 292px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 28px;
+	letter-spacing: 0.035em;}
+
+h1{
+	position: absolute;
+	width: 819px;
+	height: 96px;
+	left: 340px;
+	top: 478px;
+
+	font-family: Trash Medium;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 120px;
+	line-height: 120px;
+	letter-spacing: 0.075em;}
+
+
+
+li{
+	display: inline;
+}
+/* color type */
+
+h2 {position: absolute;
+	width: 542px;
+	height: 67px;
+	left: 115px;
+	top: 116px;
+	font-family: Trash Medium;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: 0.035em;}
+
+
+h3{
+	position: absolute;
+	width: 110px;
+	height: 29px;
+	left: 74px;
+	top: 66px;
+	
+	font-family: Trash Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 36px;
+	letter-spacing: -0.005em;
+}
+
+a{color: white;
+	text-decoration: none;
+	outline-color:#7435FA;
+    color: white;}
+    
+
+
+
+/*-----------ESTILO CONTAINER GENERAL-------------*/
+
+.container{
+	padding: 1rem;
+	float: center;}
+
+/*-----------ESTILO COLUMNA RIGHT-------------*/ 
+
+.colum-right{
+	float:right;
+	text-align: right;
+}
+
+/*-----------ESTILO COLUMNA LEFT-------------*/ 
+
+.colum-left{
+	float: left;
+	padding: 20rem;
+	
+}
+
+
+/*-----------FONDO GRADIENTE-------------*/
+body{
+	background: #F9FEFE;}
+
+
+/*-----ESTILOS IMAGEN----*/
+
+img {
+	max-width: 25em;
+    width: 15em;
+	float: right;
+	justify-content: right;
+	position: static;
+	margin-bottom: 10em;
+	margin-top: 1em;;
+    }
+
+	@media (min-width){ 960px; } 
