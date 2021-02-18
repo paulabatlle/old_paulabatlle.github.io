@@ -231,3 +231,10 @@ li{display:inline;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin: 8px;}
+
+
+/* ------------IMG CALL TO ACTION------------ */
+.calltoaction{
+	width: 130px;
+	float: right;
+}
