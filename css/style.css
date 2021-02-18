@@ -1,19 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* ---------------TIPOGRAFIAS PARA TODO ---------- */
-@font-face{
-	font-family: Montserrat;
-	src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap')
-}
 
-*{font-family: 'Montserrat', sans-serif;}
+/* ---------------TIPOGRAFIAS BASE montserrat ---------- */
+
+/* ---------------TIPOGRAFIA trash ---------- */
+@font-face{
+	font-family: Trash;
+	src: url(../assets/trash/trashregular-webfont.woff)}
+
+@font-face{
+	font-family: Trash Medium;
+	src: url(../assets/trash/trash-medium-webfont.woff)}
+
+@font-face{
+	font-family: Trash Bold;
+	src: url(../assets/trash/trash-bold-webfont.woff)}
 
 
 
 /*------- ESTILOS GENERAL ------------*/
-
-
 body{ 
 	margin: 2rem;
 	font-size: 1.2rem;}/* Tamaño de fuente: 16px */
@@ -24,8 +30,7 @@ p{font-size: 1.5rem;
 	height: 520px;
 	left: 123px;
 	top: 292px;
-	font-style: normal;
-	font-weight: normal;
+	font-style: thin 100;
 	font-size: 25px;
 	line-height: 28px;
 	letter-spacing: 0.035em;}
@@ -36,7 +41,7 @@ h1{
 	height: 96px;
 	left: 340px;
 	top: 478px;
-
+	color: black;
 	font-family: Trash Medium;
 	font-style: normal;
 	font-weight: 500;
@@ -44,11 +49,13 @@ h1{
 	line-height: 120px;
 	letter-spacing: 0.075em;}
 
-
-
 li{
 	display: inline;
 }
+
+
+
+
 /* color type */
 
 h2 {position: absolute;
@@ -69,23 +76,56 @@ h3{
 	width: 110px;
 	height: 29px;
 	left: 74px;
-	top: 66px;
-	
+	margin-top: 20px;
 	font-family: Trash Bold;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 36px;
-	letter-spacing: -0.005em;
+	letter-spacing: -0.005em;}
+
+h4{
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: 0.01em;
+	font-style: normal;
+	font-weight: lighter;
 }
 
 a{color: white;
 	text-decoration: none;
 	outline-color:#7435FA;
     color: white;}
-    
+	
+	
 
+/*------- ESTILOS ELEMENTOS FLOTANTES ------------*/
+#elemento-flotante1 {   
+	top: 10vh;
+	left: 2vw;}
+	
+.elemento-flotante2 { 
+	width: 50px;
+	height: 19px;
+	left: 168px;
+	top: 624px;}
 
+.elemento-flotante3 { 
+	top: 70vh;
+	left: 60vw;}
+
+.elemento-flotante4 { 
+	top: 20vh;
+	left: 60vw;}
+
+/*-----------TAMAÑO DE OBJETOS-------------*/
+.objetos {
+margin: 70vh;
+left: 60 vw;
+size: 10em;
+max-width: 25em;
+}
 
 /*-----------ESTILO CONTAINER GENERAL-------------*/
 
@@ -111,12 +151,13 @@ a{color: white;
 
 /*-----------FONDO GRADIENTE-------------*/
 body{
-	background: #F9FEFE;}
+	background: #F9FEFE;
+	margin: 0;}
 
 
-/*-----ESTILOS IMAGEN----*/
+/*-----ESTILOS IMAGEN ABOUT----*/
 
-img {
+.fotopersonal {
 	max-width: 25em;
     width: 15em;
 	float: right;
@@ -126,4 +167,33 @@ img {
 	margin-top: 1em;;
     }
 
-	@media (min-width){ 960px; } 
+
+	/*-----FONS AMB CERCLE----*/
+
+.content {
+	position: relative;
+	z-index: 1;}
+
+/*-----CERCLE----*/
+.billboard {
+	background: #F9FEFE;
+	height: 100vh;
+	color: white;}
+
+.circulo {
+	align-items: center;
+	background: pink;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	z-index: 0;}
+
+.circulo::before {
+	border: 4px solid #C4C4C4;
+	border-radius: 50%;
+	content: '';
+	display: block;
+	width: 90vh;
+	height: 90vh;
+	opacity: .25;}
