@@ -180,7 +180,7 @@ body{
 	justify-content: right;
 	position: static;
 	margin-bottom: 10em;
-	margin-top: 1em;;
+	margin-top: 1em;
     }
 
 
@@ -237,4 +237,24 @@ li{display:inline;
 .calltoaction{
 	width: 130px;
 	float: right;
+}
+
+/*---- IMG PROYECTOS HOME------*/
+.fotosproyecto{
+	max-width: 25em;
+    width: 15em;
+	float: right;
+	justify-content: right;
+	position: static;
+	margin-top: 60em;
+	margin-bottom: 6em;
+}
+
+.fotosproyecto2{
+	max-width: 25em;
+    width: 15em;
+	float: right;
+	justify-content: right;
+	margin-top: 40em;
+	margin-bottom: 6em;
 }
