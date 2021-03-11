@@ -21,7 +21,10 @@ box-sizing: border-box;
 	font-family: "Trash Bold";
 	src: url(../assets/trash/trash-bold-webfont.woff)}
 
-
+/*--CURSOR --*/
+html{
+	cursor: url(/img/cursor.svg), default;
+}
 
 /*------- ESTILOS GENERAL ------------*/
 body{ 
@@ -97,13 +100,11 @@ a{color: #423434;
 	position: absolute;
 	top: 0;
 	width: 100%;
-	 
-}
+	z-index: 9;}
 
 .logo {
 	width: 50px; 
-	height: 50px;
-	}
+	height: 50px;}
 
 /* ------------ESTILOS MENU------------ */
 
@@ -227,9 +228,9 @@ a{color: #423434;
 }
 
 .billboard-star{
-	left: 3rem;
+	top: 80%;
 	position: absolute;
-	bottom: 5 rem;
+	left: 3%;
 	width: 120px;
 }
 
@@ -256,17 +257,27 @@ a{color: #423434;
 
 .tag1{
 	top: 25%;
-	right: 78%;
+	right: 74%;
 }
 
 .tag2{
 	top: 25%;
-	right: 30%;
+	right: 22%;
 }
 
 .tag3{
 	bottom: 20%;
 	left: 20%;
+}
+
+.tag4{
+	bottom: 10%;
+	left: 70%;
+}
+
+.tag5{
+	bottom: 0%;
+	left: 40%;
 }
 
 /*-----CIRCULO----*/
@@ -292,12 +303,14 @@ a{color: #423434;
 .calltoaction{
 	width: 130px;
 	float: right;
+	margin-top:10%;
+	margin-right: 2rem;
 }
 
 /*---- PROYECTOS HOME------*/
 .background-pojects{
-	background-color:#FF7772;
-	z-index:-1;
+	background:#FF7772;
+	z-index: 5;
 } 
 
 .project{
@@ -345,12 +358,15 @@ a{color: #423434;
 
 
 .social-links{
+	background-color: #FF7772;
 	float: right;
 	width:3em;
 	height: 3em;
 	bottom: 2px;
-	size: 2em;
+	background: url(/img/instagram.svg) 50% no-repeat;
 }
+
 .social-icon{
-	size: 2em;
+	size: 1em;
 }
+
