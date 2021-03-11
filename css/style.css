@@ -295,10 +295,14 @@ a{color: #423434;
 }
 
 /*---- PROYECTOS HOME------*/
+.background-pojects{
+	background-color:#FF7772;
+	z-index:-1;
+} 
+
 .project{
 	display: block;
-	position: relative;
-	
+	position: relative;	
 }
 
 .project-photo{
@@ -323,6 +327,7 @@ a{color: #423434;
 	position: static;
 	margin-top: 60em;
 	margin-bottom: 6em;
+	margin-left: 6em;
 }
 
 .fotosproyecto2{
@@ -332,4 +337,20 @@ a{color: #423434;
 	justify-content: right;
 	margin-top: 40em;
 	margin-bottom: 6em;
+}
+
+
+
+/*----FOOTER---*/
+
+
+.social-links{
+	float: right;
+	width:3em;
+	height: 3em;
+	bottom: 2px;
+	size: 2em;
+}
+.social-icon{
+	size: 2em;
 }
