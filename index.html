@@ -11,16 +11,15 @@
 
 
     <!------ VINCULACION HOJA ESTILOS CSS------>
-    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
      <!----- TIPOGRAFIAS DE GOOGLE FONTS------>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400&display=swap" rel="stylesheet"> 
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400&display=swap" rel="stylesheet">   
+      
 
     <!-- CONFIGURACION PARA IPHONE-->
     <meta name= "viewport" content= " width = device-width, initial-scale=1.0">
@@ -30,60 +29,71 @@
 
     <body>
 
-    <main>
+ 
+    
+        <header class="header">
+            <img class= "logo" src= "img/p.svg" />
+
+            <!--- NAVEGADOR: MENU--->
+                <nav class= "navegador"> 
+                    <ul class="navegador-list">
+                        <li class="navegador-item"> <a href="work/trabajos.html"> Work </a> </li>
+                        <li class="navegador-item"> <a href="servicios/servicios.html"> Servies </a></li>
+                        <li class="navegador-item"> <a href="sobre-mi/about.html"> About </a> </li>
+                    </ul>
+                </nav>
+        </header>
+
+        <section class="billboard">
+            <div class="circulo"></div>
+            <div class= "billboard-content">
+
+                <h1 class= "billboard-title">  paula batlle </h1> 
+
+                <ul class="billboard-categories">
+                    <li>Art Direction</li>
+                    <li>Digital Design</li>
+                    <li>Branding & Packaging</li>
+                </ul>
+
+                <!-- OBJETOS FLOTANTES-->
+                    <ul class= "tags"> 
+                         <li class="tag-item tag1">emphatic </li> 
+                         <li class="tag-item tag2">happy </li> 
+                         <li class="tag-item tag3">teamworker </li>    
+                         <li class="tag-item tag4">responsible </li> 
+                         <li class="tag-item tag5">enthusiastic </li> 
+                    </div>  
+            </div>
+              <!-- OBJETOS-->       
+                <img class= "billboard-star" src="img/star2.png"> 
+        </section>
 
 
-       
-
-<!--- NAVEGADOR: MENU--->
-<nav>
-    <div class= "navegador"> 
-	<ul>
-        <li> <a href="work/trabajos.html"> <h3>Work</h3> </a></li>
-        <li> <a href="servicios/servicios.html"> <h3> Servies </h3> </a></li>
-		<li> <a href="sobre-mi/about.html"> <h3>About </h3></a></li>
-	</ul>
-</div>
-</nav>
-
-<img class= "logo" src= "img/p.svg" />
-
-
-
-<div class= "header"> <h1> paula batlle </h1> </div>
-
-
-<!-- OBJETOS FLOTANTES-->
-    <div class= "colum-right"> 
-        
-         <p class="elemento-flotante1">  emphatic </p> 
-         <p class="elemento-flotante2">  happy </p> 
-         <p class="elemento-flotante3">  teamworker </p>    
-         <p class="elemento-flotante4">  responsible </p> 
-         <p class="elemento-flotante5">  enthusiastic </p> </div>    
-
-
+<main>
 <!-- CALL TO ACTION-->  
 <img class= "calltoaction" src="img/calltoaction.png">
 
 
-<!-- OBJETOS-->       
- <img class= "objeto1" src="img/star2.png">
- <img class= "objeto2" src="img/ellipse2.png">
+
       
 <!-- FOTOS PROYECTO-->
-<img class= "fotosproyecto" src="work/img/ElsIncansables.png">
+<a class= "project">
+<h2>Els Incansables</h2>
+<img class= "project-photo" src="work/img/ElsIncansables.png">
+</a>
+
 <img class= "fotosproyecto2" src="work/img/SpaceTravel.png">
 
 </div>
 
-        </main>
+</main>
 
-    </body>
+    
 
     
 <!--LINKS TO XARXES SOCIALS-->
-
+<footer>
 <div id= "social links"> 
 	<a href="https://www.instagram.com/esmimanera_"> <i class="fab fa-instagram"> </i> </a> 
 	<a href="https://www.linkedin.com/in/paulabatllepl"> <i class="fab fa-linkedin"> </i></a> 
@@ -92,5 +102,5 @@
 
 </footer>
 
-
+</body>
 </html>
