@@ -30,23 +30,20 @@ html{
 body{ 
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
+	background: #EFF3F3;
 	font-size: 1.2rem;}/* Tamaño de fuente: 16px */ 
 
 main{
 	background:#FF7772;
-	margin-top: 2em;
-	padding: 20%;
+	padding: 10%;
 }
 
-p{font-size: 1 rem;
-	width: 556px;
-	height: 520px;
-	left: 123px;
-	top: 292px;
-	color:#423434
-	font-style: thin 100;
-	font-size: 25px;
-	line-height: 28px;
+p{
+	font-size: 1.4rem;
+	font-family:'Trash';
+	color:#EFF3F3;
+	line-height: 0em;
+	margin-top: 1em;
 	letter-spacing: 0.035em;}
 
 h1{
@@ -89,7 +86,8 @@ h4{
 	font-weight: lighter;
 }
 
-a{color: #423434;
+a{	
+	color: #423434;
 	font-family: 'Trash Medium', 'Montserrat', sans-serif;
 	text-decoration: none;
 	outline-color:#FF7772;}
@@ -149,17 +147,18 @@ a{color: #423434;
 	position: relative;
 	z-index: 1;}
 
-
 .billboard {
 	background: #EFF3F3;
 	height: 100vh;
-	margin-bottom: 12em;}
+	}
 
 .billboard-content{
 	height: 100%;
 	position: relative;
 	width: 100%;
-	z-index: 1;}
+	margin-bottom: 20em;
+	z-index: 1;
+	}
 
 /*--NOMBRE PAULA BATLLE--*/
 .billboard-title{
@@ -205,7 +204,7 @@ a{color: #423434;
 	position: absolute;
 	top: 58%;
 	left: 49%;
-	z-index: 1;
+	z-index: 1;	
 }
 
 .tags{
@@ -329,16 +328,9 @@ a{color: #423434;
 }
 
 
-
-/*--BACKGROUND PINK--*/
-.intermedio{
-	background: #FF7772;
-}
-
 /*--FOOTER--*/
 
 .social-links{
-	background-color: #FF7772;
 	float: right;
 	width:3em;
 	height: 3em;
