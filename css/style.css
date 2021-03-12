@@ -23,8 +23,7 @@ box-sizing: border-box;
 
 /*--CURSOR--*/
 html{
-	cursor: url(/img/cursor.svg), default;
-}
+	cursor: url(/img/cursor.svg), default;}
 
 /*--ESTILOS GENERAL--*/
 body{ 
@@ -35,8 +34,7 @@ body{
 
 main{
 	background:#FF7772;
-	padding: 10%;
-}
+	padding: 10%;}
 
 p{
 	font-size: 1.4rem;
@@ -83,8 +81,7 @@ h4{
 	line-height: 18px;
 	letter-spacing: 0.01em;
 	font-style: normal;
-	font-weight: lighter;
-}
+	font-weight: lighter;}
 
 a{	
 	color: #423434;
@@ -137,8 +134,7 @@ a{
 	justify-content: right;
 	position: static;
 	margin-bottom: 10em;
-	margin-top: 1em;
-    }
+	margin-top: 1em;}
 
 
 /*--FONS AMB CERCLE--*/
@@ -149,16 +145,14 @@ a{
 
 .billboard {
 	background: #EFF3F3;
-	height: 100vh;
-	}
+	height: 100vh;}
 
 .billboard-content{
 	height: 100%;
 	position: relative;
 	width: 100%;
 	margin-bottom: 20em;
-	z-index: 1;
-	}
+	z-index: 1;}
 
 /*--NOMBRE PAULA BATLLE--*/
 .billboard-title{
@@ -179,14 +173,15 @@ a{
 
 /*--CIRCULO NOMBRE--*/	
 .billboard-title::after {
+	background: #FF7772;
 	border-radius: 50%;
 	content: '';
 	display: block;
-	height: 103px;
+	height: 5rem;
 	position: absolute;
-	top: -2rem;
-	right: -2rem;
-	width: 103px;
+	top: -0.2rem;
+	right: -1rem;
+	width: 5rem;
 	z-index: -1;
 }
 
