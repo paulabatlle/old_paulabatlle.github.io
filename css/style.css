@@ -1,14 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*--- recept responsive---*/
+/*--recept responsive--*/
 *{
 box-sizing: border-box;
 }
 
-/* ---------------TIPOGRAFIAS BASE montserrat ---------- */
+/*--TIPOGRAFIAS BASE montserrat-- */
 
-/* ---------------TIPOGRAFIA trash ---------- */
+/*--TIPOGRAFIA trash-- */
 @font-face{
 	font-family: "Trash";
 	src: url(../assets/trash/trashregular-webfont.woff)}
@@ -21,12 +21,12 @@ box-sizing: border-box;
 	font-family: "Trash Bold";
 	src: url(../assets/trash/trash-bold-webfont.woff)}
 
-/*--CURSOR --*/
+/*--CURSOR--*/
 html{
 	cursor: url(/img/cursor.svg), default;
 }
 
-/*------- ESTILOS GENERAL ------------*/
+/*--ESTILOS GENERAL--*/
 body{ 
 	background: #F9FEFE;
 	font-family: 'Montserrat', sans-serif;
@@ -39,13 +39,14 @@ p{font-size: 1 rem;
 	height: 520px;
 	left: 123px;
 	top: 292px;
+	color:#423434
 	font-style: thin 100;
 	font-size: 25px;
 	line-height: 28px;
 	letter-spacing: 0.035em;}
 
 h1{
-	color: black;
+	color: #423434;
 	font-family: "Trash Medium";
 	font-style: normal;
 	font-weight: 500;
@@ -54,7 +55,7 @@ h1{
 	letter-spacing: 0.075em;} 
 
 
-/* color type */
+/*--color-type--*/
 
 h2 {
 	font-family: "Trash Medium";
@@ -84,13 +85,12 @@ h4{
 }
 
 a{color: #423434;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trash Medium', 'Montserrat', sans-serif;
 	text-decoration: none;
 	outline-color:#FF7772;}
 	
-	
 
-/*------- HEADER ------------*/
+/*--HEADER--*/
 .header{
 	align-items: center;
 	display: flex;
@@ -106,7 +106,7 @@ a{color: #423434;
 	width: 50px; 
 	height: 50px;}
 
-/* ------------ESTILOS MENU------------ */
+/*--ESTILOS MENU--*/
 
 .navegador-list{
 	list-style-type: none;
@@ -115,8 +115,7 @@ a{color: #423434;
 .navegador-item {
 	color: #423434;
 	display: inline;
-	font-family: "Trash Bold";
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 36px;
 	line-height: 1;
 	letter-spacing: -0.005em;
@@ -126,46 +125,7 @@ a{color: #423434;
 	margin-right: 0;
 }
 
-
-/*-----------TAMAÑO DE OBJETOS-------------*/
-.objeto1 {
-	left: 60 vw;
-	size: 20em;
-	max-width: 20em;
-	width: 50px; height: 50px;
-	margin: 80px;
-}
-
-.objeto2 {
-	left: 60 vw;
-	size: 20em;
-	max-width: 30em;
-	width: 50px; height: 50px;
-	margin: 60px;
-}
-
-/*-----------ESTILO CONTAINER GENERAL-------------*/
-
-.container{
-	padding: 1rem;
-	float: center;}
-
-/*-----------ESTILO COLUMNA RIGHT-------------*/ 
-
-.colum-right{
-	float:right;
-	text-align: right;
-}
-
-/*-----------ESTILO COLUMNA LEFT-------------*/ 
-
-.colum-left{
-	float: left;
-	padding: 20rem;
-	
-}
-
-/*-----ESTILOS IMAGEN ABOUT----*/
+/*--ESTILOS IMAGEN ABOUT--*/
 
 .fotopersonal {
 	max-width: 25em;
@@ -178,7 +138,7 @@ a{color: #423434;
     }
 
 
-/*-----FONS AMB CERCLE----*/
+/*--FONS AMB CERCLE--*/
 
 .content {
 	position: relative;
@@ -196,12 +156,12 @@ a{color: #423434;
 	width: 100%;
 	z-index: 1;}
 
-/*--- NOMBRE PAULA BATLLE---*/
+/*--NOMBRE PAULA BATLLE--*/
 .billboard-title{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	color: black;
+	color: #423434;
 	font-family: "Trash Medium";
 	font-style: normal;
 	font-weight: 500;
@@ -213,7 +173,7 @@ a{color: #423434;
 	white-space: nowrap;
 	}
 
-/*--- CIRCULO NOMBRE---*/	
+/*--CIRCULO NOMBRE--*/	
 .billboard-title::after {
 	background: #FF7772;
 	border-radius: 50%;
@@ -307,16 +267,29 @@ a{color: #423434;
 	margin-right: 2rem;
 }
 
-/*---- PROYECTOS HOME------*/
+/*--PROYECTOS HOME--*/
 .background-pojects{
 	background:#FF7772;
 	z-index: 5;
 } 
 
+/*--INCANSABLES--*/
 .project{
 	display: block;
 	position: relative;	
+	margin-left: 10em;
+	margin-bottom: 10em;
+	margin-top: 8em;
 }
+
+/*--SPACE TRAVEL--*/
+.project2{
+	display: block;
+	position: relative;	
+	margin-left: 6em;
+	margin-bottom: 10em;
+}
+
 
 .project-photo{
 	position: absolute;
@@ -354,8 +327,12 @@ a{color: #423434;
 
 
 
-/*----FOOTER---*/
+/*--BACKGROUND PINK--*/
+.intermedio{
+	background: #FF7772;
+}
 
+/*--FOOTER--*/
 
 .social-links{
 	background-color: #FF7772;
