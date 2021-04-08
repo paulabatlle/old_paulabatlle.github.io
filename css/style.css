@@ -63,7 +63,8 @@ h2 {
 	font-weight: 500;
 	font-size: 60px;
 	line-height: 60px;
-	letter-spacing: 0.035em;}
+	letter-spacing: 0.035em;
+	margin-top:0.75em;}
 
 
 h3{
@@ -104,7 +105,8 @@ a{
 
 .logo {
 	width: 50px; 
-	height: 50px;}
+	height: 50px;
+	z-index: 1;}
 
 /*--ESTILOS MENU--*/
 
@@ -136,6 +138,15 @@ a{
 	margin-bottom: 10em;
 	margin-top: 1em;}
 
+.servicesfoto{
+	max-width: 50em;
+    width: 20em;
+	float: right;
+	justify-content: right;
+	position: static;
+	margin-bottom: 10em;
+	margin-top: 1em;
+}
 
 /*--FONS AMB CERCLE--*/
 
@@ -328,13 +339,11 @@ a{
 .social-links{
 	float: right;
 	margin-right: 3em;
-}
+	margin-bottom: 1em;}
 
 .social-icon{
 	size: 1em;
 	margin-right: 0.8em;
-	margin-top: 1em;
-	margin-bottom: 1em;
   	width: 2em;
 }
 
