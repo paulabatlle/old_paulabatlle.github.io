@@ -1,0 +1,337 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--recept responsive--*/
+*{
+box-sizing: border-box;
+}
+
+/*--TIPOGRAFIAS BASE montserrat-- */
+
+/*--TIPOGRAFIA trash-- */
+@font-face{
+	font-family: "Trash";
+	src: url(../assets/trash/trashregular-webfont.woff)}
+
+@font-face{
+	font-family: "Trash Medium";
+	src: url(../assets/trash/trash-medium-webfont.woff)}
+
+@font-face{
+	font-family: "Trash Bold";
+	src: url(../assets/trash/trash-bold-webfont.woff)}
+
+/*--CURSOR--*/
+html{
+	cursor: url(/img/cursor.svg), default;}
+
+/*--ESTILOS GENERAL--*/
+body{ 
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	background: #EFF3F3;
+	font-size: 1.2rem;}/* Tamaño de fuente: 16px */ 
+
+main{
+	background:#FF7772;
+	padding: 10%;}
+
+p{
+	font-size: 1.4rem;
+	font-family:"Trash";
+	color:#EFF3F3;
+	margin-top: 1em;
+	line-height: 5em;}
+
+h1{
+	color: #423434;
+	font-family: "Trash Medium";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 120px;
+	line-height: 1;
+	letter-spacing: 0.075em;} 
+
+/*--color-type--*/
+
+h2 {
+	font-family: "Trash Medium";
+	font-style: normal;
+	color:#EFF3F3;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: 0.035em;}
+
+
+h3{
+	color: #423434;
+	font-family: "Trash Bold";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 36px;
+	letter-spacing: -0.005em;}
+
+h4{
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: 0.01em;
+	font-style: normal;
+	font-weight: lighter;}
+
+a{	
+	color: #423434;
+	font-family: 'Trash Medium', 'Montserrat', sans-serif;
+	text-decoration: none;
+	outline-color:#FF7772;}
+
+
+
+/*--HEADER--*/
+.header{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	left: 0;
+	padding: 2rem;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 9;}
+
+.logo {
+	width: 50px; 
+	height: 50px;}
+
+/*--ESTILOS MENU--*/
+
+.navegador-list{
+	list-style-type: none;
+	margin:0;}
+
+.navegador-item {
+	color: #423434;
+	display: inline;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 1;
+	letter-spacing: -0.005em;
+	margin: 0 1.5rem;}
+
+.navegador-item:last-child{
+	margin-right: 0.2;
+}
+
+/*--ESTILOS IMAGEN ABOUT--*/
+
+.fotopersonal {
+	max-width: 25em;
+    width: 15em;
+	float: right;
+	justify-content: right;
+	position: static;
+	margin-bottom: 10em;
+	margin-top: 1em;}
+
+
+/*--FONS AMB CERCLE--*/
+
+.content {
+	position: relative;
+	z-index: 1;}
+
+.billboard {
+	background: #EFF3F3;
+	height: 100vh;}
+
+.billboard-content{
+	height: 100%;
+	position: relative;
+	width: 100%;
+	margin-bottom: 20em;
+	z-index: 1;}
+
+/*--NOMBRE PAULA BATLLE--*/
+.billboard-title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #423434;
+	font-family: "Trash Medium";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 120px;
+	line-height: 1;
+	letter-spacing: 0.075em;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	white-space: nowrap;
+	}
+
+/*--CIRCULO NOMBRE--*/	
+.billboard-title::after {
+	background: #FF7772;
+	border-radius: 50%;
+	content: '';
+	display: block;
+	height: 5rem;
+	position: absolute;
+	top: -0.2rem;
+	right: -1rem;
+	width: 5rem;
+	z-index: -1;
+}
+
+.billboard-star{
+	top: 80%;
+	position: absolute;
+	left: 3%;
+	width: 120px;
+}
+
+.billboard-categories{
+	color: #423434;
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	top: 58%;
+	left: 49%;
+	z-index: 1;	
+}
+
+.tags{
+	color: #423434;
+	list-style: none;
+	margin: 0;
+}
+
+.tag-item{
+	position: absolute;
+	z-index: 1;
+}
+
+.tag1{
+	top: 25%;
+	right: 74%;
+}
+
+.tag2{
+	top: 25%;
+	right: 22%;
+}
+
+.tag3{
+	bottom: 20%;
+	left: 20%;
+}
+
+.tag4{
+	bottom: 10%;
+	left: 70%;
+}
+
+.tag5{
+	bottom: 0%;
+	left: 40%;
+}
+
+/*-----CIRCULO----*/
+.circulo {
+	align-items: center;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	position: absolute;
+	z-index: 0;}
+
+.circulo::before {
+	border: 1px solid #C4C4C4;
+	border-radius: 50%;
+	content: '';
+	display: block;
+	width: 90vh;
+	height: 90vh;
+	opacity: .25;}
+
+/* ------------IMG CALL TO ACTION------------ */
+.calltoaction{
+	width: 130px;
+	float: right;
+	margin-top:10%;
+	margin-right: 2rem;
+}
+
+/*--PROYECTOS HOME--*/
+.background-pojects{
+	z-index: -1;
+} 
+
+/*--INCANSABLES--*/
+.project{
+	display: block;
+	position: relative;	
+	margin-left: 10em;
+	margin-bottom: 10em;
+	margin-top: 8em;
+}
+
+/*--SPACE TRAVEL--*/
+.project2{
+	display: block;
+	position: relative;	
+	margin-left: 6em;
+	margin-bottom: 10em;
+}
+
+
+.project-photo{
+	position: absolute;
+	top: -30%;
+	max-width: 350px;
+	left: 10%;
+	transition: opacity 0.25s ease-in-out;
+	opacity: 0;
+	z-index: 1;
+}
+/*---- IMG HOVER PROJECTS------*/
+.project:hover .project-photo{
+	opacity: 1;
+}
+
+.fotosproyecto{
+	max-width: 25em;
+    width: 15em;
+	float: right;
+	justify-content: right;
+	position: static;
+	margin-top: 60em;
+	margin-bottom: 6em;
+	margin-left: 6em;
+}
+
+.fotosproyecto2{
+	max-width: 25em;
+    width: 15em;
+	float: right;
+	justify-content: right;
+	margin-top: 40em;
+	margin-bottom: 6em;
+}
+
+
+/*--FOOTER--*/
+
+.social-links{
+	float: right;
+	margin-right: 3em;
+}
+
+.social-icon{
+	size: 1em;
+	margin-right: 0.8em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+  	width: 2em;}
