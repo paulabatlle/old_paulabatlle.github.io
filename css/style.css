@@ -33,8 +33,14 @@ body{
 	font-size: 1.2rem;}/* Tamaño de fuente: 16px */ 
 
 main{
-	background:#FF7772;
 	padding: 10%;}
+
+.wrapper{
+	padding: 10%;}
+
+.bg-primary{
+	background: #FF7772;
+}
 
 p{
 	font-size: 1.4rem;
@@ -255,6 +261,7 @@ a{
 .tag5{
 	bottom: 0%;
 	left: 40%;
+	margin-bottom: 2rem;
 }
 
 /*-----CIRCULO----*/
@@ -285,18 +292,29 @@ a{
 }
 
 /*--PROYECTOS HOME--*/
-.background-pojects{
-	z-index: -1;
+.background-projects{
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 } 
 
 /*--INCANSABLES--*/
 .project{
 	display: block;
 	position: relative;	
-	margin-left: 10em;
-	margin-bottom: 10em;
-	margin-top: 8em;
+	margin-bottom: 6em;
+	width: auto;
 }
+
+.project:last-child{
+	margin-bottom: 2em;
+}
+
+.project:nth-child(even){
+	margin-left:auto;
+}
+
 
 /*--SPACE TRAVEL--*/
 .project2{
@@ -350,10 +368,13 @@ a{
 	margin-bottom: 1em;}
 
 /*--FOOTER--*/
-
+.footer{
+	margin-left: 3rem;
+	margin-right: 3em;
+	margin-top: 1rem;
+}
 .social-links{
 	float: right;
-	margin-right: 3em;
 	margin-bottom: 1em;}
 
 .social-icon{

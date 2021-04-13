@@ -237,6 +237,7 @@ a{
 .tag5{
 	bottom: 0%;
 	left: 40%;
+	margin-bottom: 2rem;
 }
 
 /*-----CIRCULO----*/
@@ -326,10 +327,15 @@ a{
 
 
 /*--FOOTER--*/
+.footer{
+	margin-right: 3em;
+}
+.footer-email{
+	margin-left: 5em;
+}
 
 .social-links{
 	float: right;
-	margin-right: 3em;
 }
 
 .social-icon{
