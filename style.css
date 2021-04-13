@@ -37,12 +37,12 @@ main{
 	padding: 10%;}
 
 p{
+	font-family:"Trash";
+	line-height: 5em;
 	font-size: 1.4rem;
-	font-family:'Trash';
 	color:#EFF3F3;
-	line-height: 1.2em;
-	margin-top: 1em;
-	letter-spacing: 0.035em;}
+	margin-top: 1em;}
+	
 
 h1{
 	color: #423434;
@@ -53,15 +53,6 @@ h1{
 	line-height: 1;
 	letter-spacing: 0.075em;} 
 
-.textofondoblanco{
-	margin-left:5em;
-	font-size: 1.4rem;
-	font-family:'Trash';
-	color:#423434;
-	line-height: 1.2em;
-	margin-top: 1em;
-	letter-spacing: 0.035em;}
-
 /*--color-type--*/
 
 h2 {
@@ -71,8 +62,7 @@ h2 {
 	font-weight: 500;
 	font-size: 60px;
 	line-height: 60px;
-	letter-spacing: 0.035em;
-	margin-top:0.75em;}
+	letter-spacing: 0.035em;}
 
 
 h3{
@@ -97,7 +87,8 @@ a{
 	font-family: 'Trash Medium', 'Montserrat', sans-serif;
 	text-decoration: none;
 	outline-color:#FF7772;}
-	
+
+
 
 /*--HEADER--*/
 .header{
@@ -113,8 +104,7 @@ a{
 
 .logo {
 	width: 50px; 
-	height: 50px;
-	z-index: 1;}
+	height: 50px;}
 
 /*--ESTILOS MENU--*/
 
@@ -144,17 +134,9 @@ a{
 	justify-content: right;
 	position: static;
 	margin-bottom: 10em;
-	margin-top: 1em;}
-
-.servicesfoto{
-	max-width: 50em;
-    width: 20em;
-	float: right;
-	justify-content: right;
-	position: static;
-	margin-bottom: 10em;
 	margin-top: 1em;
-}
+	z-index: 1;}
+
 
 /*--FONS AMB CERCLE--*/
 
@@ -342,23 +324,17 @@ a{
 }
 
 
-/*--PROYECTOS PAGINAS--*/
-
-.textoproyectos{
-	float: right;
-	margin-right: 3em;
-	margin-bottom: 1em;}
 
 /*--FOOTER--*/
 
 .social-links{
 	float: right;
 	margin-right: 3em;
-	margin-bottom: 1em;}
+}
 
 .social-icon{
 	size: 1em;
 	margin-right: 0.8em;
-  	width: 2em;
-}
-
+	margin-top: 1em;
+	margin-bottom: 1em;
+  	width: 2em;}
