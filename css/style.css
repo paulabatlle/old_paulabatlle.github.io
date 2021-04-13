@@ -82,13 +82,15 @@ h2 {
 
 
 h3{
-	color: #423434;
-	font-family: "Trash Bold";
+	font-family: "Trash Medium";
 	font-style: normal;
-	font-weight: bold;
-	font-size: 36px;
-	line-height: 36px;
-	letter-spacing: -0.005em;}
+	color:#423434;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: 0.035em;
+	margin-top:  2em;
+	margin-left: 1em;}
 
 h4{
 	font-weight: 200;
