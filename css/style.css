@@ -297,14 +297,23 @@ a{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	
 } 
 
 /*--INCANSABLES--*/
 .project{
 	display: block;
 	position: relative;	
-	margin-bottom: 6em;
+	margin-bottom: 4em;
 	width: auto;
+	font-family: "Trash Medium";
+	font-style: normal;
+	color:#EFF3F3;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: 0.035em;
+	margin-top:0.75em;
 }
 
 .project:last-child{
