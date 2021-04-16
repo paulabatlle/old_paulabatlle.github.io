@@ -107,6 +107,10 @@ a{
 	outline-color:#FF7772;}
 	
 
+.textonegro{
+	color: #423434;
+}
+
 /*--HEADER--*/
 .header{
 	align-items: center;
@@ -125,6 +129,11 @@ a{
 	z-index: 1;}
 
 /*--ESTILOS MENU--*/
+nav {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
 
 .navegador-list{
 	list-style-type: none;
@@ -392,5 +401,12 @@ a{
 	size: 1em;
 	margin-right: 0.8em;
   	width: 2em;
+}
+
+/* ---------------ESTILOS RESPONSIVE---------- */
+
+@media screen and (max-width:800px){
+	
+.circulo {display:none;}
 }
 
