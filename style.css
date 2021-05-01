@@ -42,7 +42,13 @@ p{
 	font-size: 1.4rem;
 	color:#EFF3F3;
 	margin-top: 1em;}
-	
+
+.hero{
+	align-items: flex-end;
+	display: flex;
+	min-height: 60vh;
+	padding: 3rem 10% 10%;
+}
 
 h1{
 	color: #423434;
@@ -346,12 +352,23 @@ a{
   	width: 2em;}
 
 
-@media (min-width:60em) {
+
+	  
+
+	
+@media (max-width:480px) {
 	.billboard-title{
 		color:red;
 		background-color:#FF7772;
-		font-size: 22em;
-		display: flex;
+		font-size: 1em;
+
 	}
 
+	.circulo{
+		display: none;
+	}
+
+	.circulo::before{
+		display:none;
+	}
 }
