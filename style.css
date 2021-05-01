@@ -157,7 +157,7 @@ a{
 
 /*--NOMBRE PAULA BATLLE--*/
 .billboard-title{
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
 	color: #423434;
@@ -344,3 +344,14 @@ a{
 	margin-top: 1em;
 	margin-bottom: 1em;
   	width: 2em;}
+
+
+@media (min-width:60em) {
+	.billboard-title{
+		color:red;
+		background-color:#FF7772;
+		font-size: 22em;
+		display: flex;
+	}
+
+}
