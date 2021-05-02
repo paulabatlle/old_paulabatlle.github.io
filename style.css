@@ -190,7 +190,7 @@ a{
 	right: -1rem;
 	width: 5rem;
 	z-index: -1;
-}
+	}
 
 .billboard-star{
 	top: 80%;
@@ -213,6 +213,7 @@ a{
 	color: #423434;
 	list-style: none;
 	margin: 0;
+	position: absolute;
 }
 
 .tag-item{
@@ -305,6 +306,20 @@ a{
 	opacity: 0;
 	z-index: 1;
 }
+
+
+/*---- ESTILOS PAG PROYECTOS------*/
+
+.subtitulo{
+	font-family: "Trash Medium";
+	font-style: normal;
+	color: #423434;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: 0.035em;
+
+}
 /*---- IMG HOVER PROJECTS------*/
 .project:hover .project-photo{
 	opacity: 1;
@@ -352,17 +367,12 @@ a{
   	width: 2em;}
 
 
-
-	  
-
+	
 	
 @media (max-width:480px) {
 	.billboard-title{
-		color:red;
 		background-color:#FF7772;
-		font-size: 1em;
-
-	}
+		font-size: 1em;}
 
 	.circulo{
 		display: none;
@@ -370,5 +380,9 @@ a{
 
 	.circulo::before{
 		display:none;
+	}
+
+	.tags{
+		display: column;
 	}
 }
